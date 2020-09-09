@@ -6,7 +6,7 @@ import re
 import time
 import csv
 outputFileName='result'
-link = "https://play.google.com/store/apps/details?id=io.fusetech.stackademia&hl=en_US&showAllReviews=true"
+link = "https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu&hl=en_US&showAllReviews=true"
 driver = webdriver.Chrome("./chromedriver")
 driver.get(link)
 title = driver.find_element_by_xpath('//*[@id="fcxH9b"]/div[4]/c-wiz/div/div[3]/meta[2]').get_attribute('content')
